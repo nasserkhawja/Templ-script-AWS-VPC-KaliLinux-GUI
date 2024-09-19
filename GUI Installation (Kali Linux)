@@ -1,0 +1,5 @@
+#!/bin/bash
+sudo apt update && sudo apt upgrade -y
+sudo apt install -y kali-desktop-xfce xrdp
+sudo systemctl enable xrdp
+sudo systemctl start xrdp
